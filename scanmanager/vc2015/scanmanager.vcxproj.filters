@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VIB">
+      <UniqueIdentifier>{b126c635-cfd8-4de5-b90d-601bc8b6070f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visualib">
+      <UniqueIdentifier>{481335c9-d135-48db-8a33-3340bd04abff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visualib\VIB">
+      <UniqueIdentifier>{40efe689-4e2f-4a2e-909c-f7a143801da5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scanmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\classVIBDatabase.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\classVIBDataSet.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\classVIBError.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\classVIBSQL.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\classVIBTransaction.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\VIBInternalErrors.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\VIBProperties.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB\VIBUtils.h">
+      <Filter>Header Files\visualib\VIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\VIB.h">
+      <Filter>Header Files\visualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\vibdefines.h">
+      <Filter>Header Files\visualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\vibsql.h">
+      <Filter>Header Files\visualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VisualIB\vibtypes.h">
+      <Filter>Header Files\visualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cached_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inifile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\prometheusdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\twain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scanning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\i_opndir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\m_argv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\promuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpegimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dllist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imagelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pargb32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\docwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shareperms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\docread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\effectdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WiaAutomationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\scanmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VisualIB\VIB\classVIBDatabase.cpp">
+      <Filter>Source Files\VIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VisualIB\VIB\classVIBDataSet.cpp">
+      <Filter>Source Files\VIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VisualIB\VIB\classVIBSQL.cpp">
+      <Filter>Source Files\VIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VisualIB\VIB\classVIBTransaction.cpp">
+      <Filter>Source Files\VIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cached_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inifile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\prometheusdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scanning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shareperms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\i_opndir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\m_argv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\promuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jpegimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pargb32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\docwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\docread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\effectdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="scanmanager.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="scanmanager.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
